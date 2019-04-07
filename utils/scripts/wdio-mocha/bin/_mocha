@@ -1,0 +1,21 @@
+#!/usr/bin/env node
+const argv = require('yargs').argv;
+
+process.argv = process.argv.slice(0, 2);
+
+// grabbed from webdriverio binary
+process.env.NODE_ENV = process.env.NODE_ENV || 'test';
+
+if (argv._) {
+  process.argv.push('--spec', argv._[0]);
+}
+
+if (argv.grep) {
+  process.argv.push('--mochaOpts.grep', argv.grep);
+}
+
+if (argv.reporter) {
+  process.argv.push('--mochaOpts.reporter', argv.reporter);
+}
+
+require('webdriverio/bin/wdio');

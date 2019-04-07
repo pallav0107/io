@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectForm should render 1`] = `
+<Box>
+  <Styled(Select)
+    alertType={null}
+    disabled={false}
+  >
+    <option
+      value=""
+    >
+      Please Select
+    </option>
+    <option
+      key="Mr"
+      value="Mr"
+    >
+      Mr
+    </option>
+    <option
+      key="Mrs"
+      value="Mrs"
+    >
+      Mrs
+    </option>
+    <option
+      key="Miss"
+      value="Miss"
+    >
+      Miss
+    </option>
+  </Styled(Select)>
+  <span />
+</Box>
+`;

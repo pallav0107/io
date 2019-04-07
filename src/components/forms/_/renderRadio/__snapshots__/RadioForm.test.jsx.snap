@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioForm should render the RadioForm 1`] = `
+<RadioForm
+  label=""
+  name=""
+  value=""
+/>
+`;

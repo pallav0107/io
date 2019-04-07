@@ -1,0 +1,16 @@
+export const GIVEN_NAME = 'GivenName';
+export const FAMILY_NAME = 'FamilyName';
+export const CITY = 'City';
+export const BIRTHDATE = 'BirthDate';
+export const CUSTOMER_TITLE = 'Title';
+export const GENDER = 'Gender';
+export const EMAIL = 'Email';
+export const ADDRESS = 'Address';
+export const POSTAL_CODE = 'PostalCode';
+export const COUNTRY = 'Country';
+export const EXPIRY_DATE = 'ExpiryDate';
+export const ISSUE_DATE = 'IssueDate';
+export const PASSPORT_NUMBER = 'PassportNumber';
+export const CONTACT_COUNTRY = 'ContactCountry';
+export const CONTACT_NUMBER = 'ContactNumber';
+export const CONTACT_TYPE = 'ContactType';

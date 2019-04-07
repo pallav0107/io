@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home testing styled-components with theming should render Backdrop 1`] = `
+.c0 {
+  width: 100%;
+  background-color: #f4f3f0;
+  height: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  box-sizing: border-box;
+}
+
+<div
+  className="c0 c1 c2"
+  is={null}
+/>
+`;

@@ -1,0 +1,34 @@
+.fl {
+  float: left;
+  text-align: left;
+}
+.bb {
+  border-bottom: 1px solid;
+}
+.p-1 {
+  padding: 10px;
+  box-sizing: border-box;
+}
+.mr-3 {
+  margin-right: 38%;
+}
+.mr-4 {
+  margin-right: 48%;
+}
+
+.posRelative {
+  position: relative;
+}
+.posAbsolute {
+  position: absolute;
+}
+.lf {
+  left: 10%;
+}
+.displayFlex {
+  display: flex;
+}
+.bgClr {
+  background-color: azure;
+  width: 70%;
+}

@@ -1,0 +1,15 @@
+{
+  "appName": "{APPNAME}",
+  "appId": "{APPID}",
+  "version": "{VERSION}",
+  "api": {
+    "baseUrl": {
+      "exp-staff-core-v1": "//gw.svp1.api.srv.east.com.au"
+    },
+    "basePath": {
+      "exp-staff-core-v1": "/exp/staff/core/v1/"
+    }
+  },
+  "brandId": "WBC",
+  "xChannelType": "Internal"
+}

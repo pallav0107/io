@@ -1,0 +1,57 @@
+.mainContainer {
+  background-color: #7d3c98;
+  color: #fff;
+  margin: 15%;
+  position: relative;
+}
+.upperCaseTxt {
+  text-transform: uppercase;
+}
+
+.alignLeft {
+  text-align: left;
+}
+.floatRight {
+  float: right;
+}
+.marginBottom {
+  margin-bottom: 30px;
+}
+.displayFlex {
+  display: flex;
+}
+.posAbsolute {
+  position: absolute;
+  bottom: 60%;
+  right: 0;
+}
+.floatLeft {
+  float: left;
+}
+.footerClr {
+  background-color: #4a235a;
+}
+.padding3 {
+  padding: 30px;
+  margin-top: 95px;
+}
+.paddingRight1 {
+  padding-right: 5%;
+}
+.marginTop {
+  margin-top: 25px;
+}
+.paddingLeft1 {
+  padding-left: 5%;
+}
+.top2 {
+  top: 20%;
+}
+.padding2 {
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.marginTop15 {
+  margin-top: 15px;
+}

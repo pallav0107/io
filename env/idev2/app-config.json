@@ -1,0 +1,81 @@
+{
+  "appName": "staff",
+  "appId": "au.com.east.ui.www1-staff",
+  "appVersion": "1.0.0",
+  "clientId": "d6ee7cd6-b130-4970-a6ef-85731828a9aa",
+  "api": {
+    "baseUrl": {
+      "exp-staff-core-v1": "//gw-staff.idev2.api.east.com.au"
+    },
+    "basePath": {
+      "exp-staff-core-v1": "/exp/staff/core/v1/"
+    }
+  },
+  "brandId": "WBC",
+  "xChannelType": "Internal",
+  "shouldSpreadAccessToken": false,
+  "oidc": {
+    "WBC": {
+      "callbackBaseUri": "https://www11.idev2.ui.east.com.au/staff",
+      "loadUserInfo": true,
+      "shouldPerformSsoRedirect": true,
+      "scope": "openid staff",
+      "issuer":
+        "https://login-dev.authbridge-nonprod.east group.com/nidp/oauth/nam",
+      "authority":
+        "https://login-dev.authbridge-nonprod.east group.com/nidp/oauth/nam",
+      "authorization":
+        "https://login-dev.authbridge-nonprod.east group.com/nidp/oauth/nam/authz?resourceServer=CSH_UI",
+      "userInfo":
+        "https://login-dev.authbridge-nonprod.east group.com/nidp/oauth/nam/userinfo",
+      "signingKeys": [
+        {
+          "kty": "RSA",
+          "use": "sig",
+          "alg": "RS256",
+          "n":
+            "ANxneDs9OISlCFaeG6hLCwtHHOf4LwYA3YER0B62n/82pr06807icuCokSzoxXfpAfR1UyTCppbWd05BwBgN1fAO9deps9ZGtrnJVSEVRH9E7s5R2thfmYHgqEfTd+XFlZwv+Q7TPO9V7NYAkzRcEgehANlXvlweKVJiaNaqxGVcZFRmga/G/1Xr7SvqUxpSDv1Qy8ABFFk5L5ixFHCMiGZ3cr+yGzCwB6/vdaVDkylV77+kG8bFfbPm3mA2VlTczs1SweEj8HOs6A1bSzGSfJEh16YOBPnK5B+CP+9mdLjTrPRZXsl11wTCxMSAJinzngi3gvdoT658EoxP4Lo36+M=",
+          "e": "AQAB"
+        }
+      ]
+    }
+  },
+  "guidedLearning": {
+    "BOM": {
+      "source":
+        "https://east guidemecdn.azureedge.net/guideme-player/guideme.js",
+      "scriptName": "guideMe",
+      "config": {
+        "userKey": "DADE7E59-E6C7-44AC-B6B8-5CF006C71DE0",
+        "baseUrl": "https://east guidemecdn.azureedge.net/guideme-player/"
+      }
+    },
+    "BSA": {
+      "source":
+        "https://east guidemecdn.azureedge.net/guideme-player/guideme.js",
+      "scriptName": "guideMe",
+      "config": {
+        "userKey": "DADE7E59-E6C7-44AC-B6B8-5CF006C71DE0",
+        "baseUrl": "https://east guidemecdn.azureedge.net/guideme-player/"
+      }
+    },
+    "STG": {
+      "source":
+        "https://east guidemecdn.azureedge.net/guideme-player/guideme.js",
+      "scriptName": "guideMe",
+      "config": {
+        "userKey": "DADE7E59-E6C7-44AC-B6B8-5CF006C71DE0",
+        "baseUrl": "https://east guidemecdn.azureedge.net/guideme-player/"
+      }
+    },
+    "WBC": {
+      "source":
+        "https://east guidemecdn.azureedge.net/guideme-player/guideme.js",
+      "scriptName": "guideMe",
+      "config": {
+        "userKey": "DADE7E59-E6C7-44AC-B6B8-5CF006C71DE0",
+        "baseUrl": "https://east guidemecdn.azureedge.net/guideme-player/"
+      }
+    }
+  }
+}

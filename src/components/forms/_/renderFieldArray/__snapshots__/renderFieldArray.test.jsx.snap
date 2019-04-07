@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FieldArraysForm should render 1`] = `undefined`;
+
+exports[`renderHobbies should render 1`] = `
+<renderHobbies
+  meta={
+    Array [
+      "error",
+    ]
+  }
+/>
+`;
+
+exports[`renderMembers should render 1`] = `
+<renderMembers
+  meta={
+    Array [
+      "error",
+      "submitFailed",
+    ]
+  }
+/>
+`;

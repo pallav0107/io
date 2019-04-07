@@ -1,0 +1,4 @@
+{
+  "extends": ["@wdpui"],
+  "parser": "babel-eslint"
+}

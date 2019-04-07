@@ -1,0 +1,118 @@
+.mb-3 {
+  margin-bottom: 30px;
+}
+.pp {
+  padding: 10%;
+  box-sizing: border-box;
+}
+.alignLeft {
+  text-align: left;
+}
+.floatRight {
+  float: right;
+}
+.floatLeft {
+  float: left;
+}
+.backgroundClrBlue {
+  background-color: #3498db;
+}
+.posAbsolute {
+  position: absolute;
+}
+.posRelative {
+  position: relative;
+}
+.top1 {
+  top: 1%;
+}
+.panel-default > .panel-heading {
+  background-color: #3498db;
+}
+.arrowUp {
+  right: 3%;
+  bottom: 99%;
+}
+.arrowDown {
+  right: 3%;
+}
+.downArrow {
+  content: "";
+  position: absolute;
+  top: 22%;
+  /* border-width: 5px; */
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+  border-width: 10px;
+}
+.upArrow {
+  content: "";
+  position: absolute;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+  -webkit-transform: rotate(-183deg);
+  transform: rotate(-183deg);
+}
+.width100 {
+  width: 100% !important;
+}
+.txtClrRed {
+  color: red;
+}
+.personalInfoForm {
+  display: flex;
+  flex-direction: column;
+}
+.marginRight28 {
+  margin-right: 280px;
+}
+.displayInline {
+  display: inline;
+}
+.width60 {
+  width: 60%;
+}
+.clrPurple {
+  color: darkmagenta;
+}
+.marginRight3 {
+  margin-right: 30px;
+}
+.marginBottom15 {
+  margin-bottom: 15px;
+}
+.width40 {
+  width: 40% !important;
+}
+.marginRight36 {
+  margin-right: 369px;
+}
+.width50 {
+  width: 50%;
+}
+.width47 {
+  width: 47%;
+}
+.width43 {
+  width: 43%;
+}
+.width {
+  width: 70%;
+}
+.form-group {
+  margin-bottom: 0px;
+}
+
+.btn-toolbar {
+  margin-left: 403px;
+  /* right: 0; */
+}
+.btnWidth50 {
+  width: 42%;
+  padding: 4px;
+}
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+}

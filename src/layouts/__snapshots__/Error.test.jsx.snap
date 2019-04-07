@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error page renders the Error page 1`] = `
+<Styled(Flex)
+  column={true}
+  flex="1 0 auto"
+>
+  <Styled(Flex)
+    align="center"
+    column={true}
+    justify="flex-start"
+    p={40}
+  >
+    <Styled(Flex)>
+      <h1>
+        404 - Page Not Found
+      </h1>
+      <withRouter(RouterButton)
+        label="Home"
+        to="/"
+      />
+    </Styled(Flex)>
+  </Styled(Flex)>
+</Styled(Flex)>
+`;
+
+exports[`Error page testing styled-components with theming should render ErrorIcon 1`] = `
+.c2 {
+  box-sizing: border-box;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 {
+  border: 1px #d7d2cb solid;
+  border-radius: 3px;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<div
+  className="c0 c1 c2"
+  is={null}
+/>
+`;

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DateComponent should render 1`] = `
+<Box>
+  <Styled(Box)>
+    <Field
+      component={[Function]}
+      name="date"
+      onBlur={[Function]}
+      onChange={[Function]}
+      placeholder="DD/MM/YYYY"
+      type="text"
+      validate={
+        Array [
+          [Function],
+          [Function],
+        ]
+      }
+    />
+  </Styled(Box)>
+  <font
+    color="red"
+  />
+</Box>
+`;
